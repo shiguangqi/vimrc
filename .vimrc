@@ -25,7 +25,7 @@ filetype indent on
 
 " Set to auto read when a file is changed from the outside
 set autoread
-
+set number
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
 let mapleader = ","
@@ -278,12 +278,7 @@ call vundle#rc()
 " 
 " required! 
 Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
+Bundle 'taglist.vim'
+Bundle 'scrooloose/nerdtree'
 
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'git://git.wincent.com/command-t.git'
 filetype plugin indent on     " required!
